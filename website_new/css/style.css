@@ -1,0 +1,52 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+/*
+/*.slider .slides {
+   background-color: transparent;
+   margin: 0;
+   height: 900px;
+}*/
+
+/*.slider .slides li img {
+    background-size:100% auto;
+    background-repeat: no-repeat;
+    /*max-width : 100%;*/
+    /*height: auto;*/
+    /*height: auto*/
+
+/*.slider {
+  max-height: 10000px;
+  full-width: 10000px;
+}*/
+
+ .slider .slides {
+    background-color: black;
+    margin: 0;
+    height: 400px;
+}
+
+.slider .slides li img {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size:100% auto;
+    background-repeat: no-repeat;
+}
+
+/*Add padding so that captions are algined with the bottom*/
+.caption {
+  padding-top: 200px;
+  padding-bottom: 900px;
+}
