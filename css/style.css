@@ -12,24 +12,6 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
-/*
-/*.slider .slides {
-   background-color: transparent;
-   margin: 0;
-   height: 900px;
-}*/
-
-/*.slider .slides li img {
-    background-size:100% auto;
-    background-repeat: no-repeat;
-    /*max-width : 100%;*/
-    /*height: auto;*/
-    /*height: auto*/
-
-/*.slider {
-  max-height: 10000px;
-  full-width: 10000px;
-}*/
 
  .slider .slides {
     background-color: black;
@@ -49,4 +31,8 @@
 .caption {
   padding-top: 200px;
   padding-bottom: 900px;
+}
+
+body {
+  background-color: #546e7a;
 }

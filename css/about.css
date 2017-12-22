@@ -1,0 +1,23 @@
+#title_for_who {
+  color: #faebd7;
+  padding-top: 100px;
+}
+
+body {
+  background-color: #546e7a;
+}
+
+#who_par {
+  font-size: 20px;
+  color: #faebd7;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 0.5px;
+}
