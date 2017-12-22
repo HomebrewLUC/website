@@ -1,63 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
   <title>homebrew@LUC - about</title>
 
   <!-- CSS and JS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="../css/about.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="../css/about.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <script type="text/javascript" src="../js/init.js"></script>
   <script type="text/javascript" src="../js/materialize.js"></script>
   <script src="//code.jquery.com/jquery.min.js"></script>
 </head>
 
 <body>
-<!-- Load Navbar -->
-<div container="navbar">
-<nav class="red darken-4" role="navigation">
-  <div class="nav-wrapper container"><a id="logo-container" href="../index.html" class="brand-logo">homebrew@LUC</a>
-    <ul class="right hide-on-med-and-down">
-      <li><a href="about.html">About</a></li>
-      <li><a href="events.html">Events</a></li>
-      <li><a href="join.html">Join</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-    <!-- Navbar Mobile -->
-    <ul id="nav-mobile" class="side-nav">
-      <li><a href="#">Navbar Link</a></li>
-    </ul>
-    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+  <!-- Load Navbar -->
+  <div container="navbar">
+    <nav class="red darken-4" role="navigation">
+      <div class="nav-wrapper container"><a id="logo-container" href="../index.html" class="brand-logo">homebrew@LUC</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="about.html">About</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <!-- Navbar Mobile -->
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="#">Navbar Link</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
   </div>
-</nav>
-</div>
 
-<div container="who">
-<h1 class="center light" id="title_for_who"> Who are we? </h1>
-<hr>
-<div class="row">
-<div class="col s6 offset-s3">
-<p id="who_par"> homebrew@LUC is an organization revolving around anything and everything technology encompasses,
-  with a passion to learn and teach about the subject. We believe that as people transition into the
-  21st century, that knowing some amount of programming is absolutley essential. As such, our members come
-  from all different majors and minors, and encompass a wide variety of interests. Some of us are scientists,
-  others are businessmen and businessowoman, others are hackers, developers, photogoraphers, musicians, etc.
-  We are all passionate about technology, and can clearly see the effects of it today. As such, we wanted to
-  create a community of students at Loyola University Chicago, and provide them with the ability to
-  pursue their own ideas, and foster an enviorment where everyone can learn. Knowledge is power.
-  This club is the realization of that dream. </p>
-</div>
-</div>
- </div>
+  <div container="who">
+    <h1 class="center light" id="title_for_who"> Who are we? </h1>
+    <hr>
+    <div class="row">
+      <div class="col s6 offset-s3">
+        <p id="who_par"> homebrew@LUC is an organization revolving around anything and everything technology encompasses, with a passion to learn and teach about the subject. We believe that as people transition into the 21st century, that knowing some amount of programming
+          is absolutley essential. As such, our members come from all different majors and minors, and encompass a wide variety of interests. Some of us are scientists, others are businessmen and businessowoman, others are hackers, developers, photogoraphers,
+          musicians, etc. We are all passionate about technology, and can clearly see the effects of it today. As such, we wanted to create a community of students at Loyola University Chicago, and provide them with the ability to pursue their own ideas,
+          and foster an enviorment where everyone can learn. Knowledge is power. This club is the realization of that dream. </p>
+      </div>
+    </div>
+  </div>
+  <br><br>
+
+  <div container="E-Board">
+    <h1 class="center light" id="date"> </h1>
+    <script>
+      n = new Date();
+      y = n.getFullYear();
+      document.getElementById('date').innerHTML = "E-Board:" + " " + y;
+    </script>
+    <hr>
 
 
+    <!-- Add cards for E-Board Members -->
+<br><br>
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m3">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/office.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<br> <br>
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m3">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/office.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<br> <br>
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m3">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/office.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  Scripts-->
 
-<!--  Scripts-->
-
-<script src="../js/materialize.js"></script>
-<script src="../js/init.js"></script>
-<script src="//code.jquery.com/jquery.min.js"></script>
+    <script src="../js/materialize.js"></script>
+    <script src="../js/init.js"></script>
+    <script src="//code.jquery.com/jquery.min.js"></script>
 </body>
 </html>
